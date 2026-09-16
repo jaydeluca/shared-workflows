@@ -117,16 +117,16 @@
     ]
   },
   {
-    "name": "opentelemetry-ecosystem-explorer",
-    "approver_teams": ["ecosystem-explorer-approvers"],
-    "non_blocking_check_patterns": ["codecov/*"],
-    "require_clean_copilot_review_branches": ["main"]
-  },
-  {
     "name": "opentelemetry-ebpf-instrumentation",
     "approver_teams": ["ebpf-instrumentation-approvers"],
     "labels_to_display": ["breaking change", "dependencies", "do-not-merge", "blocked"],
     "non_blocking_check_patterns": ["codecov/*"]
+  },
+  {
+    "name": "opentelemetry-ecosystem-explorer",
+    "approver_teams": ["ecosystem-explorer-approvers"],
+    "non_blocking_check_patterns": ["codecov/*"],
+    "require_clean_copilot_review_branches": ["main"]
   },
   {
     "name": "opentelemetry-rust",
